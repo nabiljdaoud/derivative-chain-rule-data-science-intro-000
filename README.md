@@ -146,7 +146,7 @@ So the derivative of the function $f(x) = (.5x + 3)^2 $ is $f'(x) = x^2 $
 
 ### Say it again
 
-The chain rule is allows us to the rate of change of a function that does not directly depend on a variable, $x$, but rather depends on a separate function, that depends on $x$.  For example, the function $f(x)$ below.
+The chain rule allows us to determine the rate of change of a function that does not directly depend on a variable, $x$, but rather depends on a separate function, that depends on $x$.  For example, the function $f(x)$ below.
 
 ```python
 
@@ -154,7 +154,7 @@ def g_of_x(x):
     return .5*x + 3
 
 def f_of_x(x): # outer function f(x)
-    return (g_of_x(x))**2 #inner function g(x)
+    return (g_of_x(x))**2 # inner function g(x)
 
 ```
 
